@@ -1,7 +1,7 @@
 evaluate(new File("subGroovy.groovy"))
 
 def testSubGroovyFile() {
-    subGroovy = new subGroovy()
+    def subGroovy = new subGroovy()
 
     subGroovy.mvnTest()
 }
