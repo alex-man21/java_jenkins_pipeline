@@ -1,4 +1,5 @@
-evaluate(new File("subGroovy.groovy"))
+//evaluate(new File("subGroovy.groovy"))
+import subGroovy
 
 def testSubGroovyFile() {
     def subGroovy = new subGroovy()
