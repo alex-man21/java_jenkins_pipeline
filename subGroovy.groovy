@@ -1,4 +1,4 @@
-class subTest {
+class subGroovy {
     def mvnTest() {
         echo 'testing maven'
         sh 'mvn clean install'
@@ -6,4 +6,4 @@ class subTest {
     }
 }
 
-return subTest
+return subGroovy
