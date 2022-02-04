@@ -16,8 +16,10 @@ public class BasicDemo {
 
 	public static boolean getCI() {
 		String env = System.getenv("CI");
-		return Boolean.parseBoolean(env);
+//		return Boolean.parseBoolean(env);
+		return true;
 	}
+
 
 	@Test
         public void test() {
